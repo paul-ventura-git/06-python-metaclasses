@@ -17,3 +17,5 @@ print(type(Child))
 # type
 
 # "An object is an instance of a class, and a class is an instance of a type."
+# "type" is both a function and a class
+# metaclasses are able to inherit parent classes just like regular ones can.
