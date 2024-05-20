@@ -3,6 +3,7 @@ class MyMeta(type): # When it inherits from "type" it is a metaclass
         print(f'{self.__name__} is called'
               f' with args={args}, kwargs={kwargs}')
     # implicitly it returns NONE (of a NoneType)
+    
 class Parent(metaclass=MyMeta):
     def __new__(cls, name, age):
         print('new is called')
